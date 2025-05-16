@@ -1,0 +1,57 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
